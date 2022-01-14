@@ -8,11 +8,11 @@ module.exports = async ({ getNamedAccounts, deployments }: any) => {
     baseAddress = (await deployments.get("TestBase")).address;
   }
 
-  await deploy("BaseMetadataToken", {
+  await deploy("BadBunnyVirus", {
     from: deployer,
     args: [baseAddress],
     log: true,
   });
 };
-module.exports.tags = ["BaseMetadataToken"];
+module.exports.tags = ["BadBunnyVirus"];
 module.exports.dependencies = ["TestBase"];
