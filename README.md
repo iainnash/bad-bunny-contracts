@@ -1,5 +1,6 @@
-# Example erc721-gwei-slim usage contracts
+# Bad bunny
 
-This is a starter template repo for creating your own gas-optimized ERC721 deployments.
+This NFT visits your wallet... and never leaves.
 
-Clone this repo, run test, update the contract code and deploy :).
+Send it to a friend and you'll still keep the original.
+
